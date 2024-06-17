@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 """APPROLE methods module."""
 import json
-from hvac import exceptions, utils
-from hvac.api.vault_api_base import VaultApiBase
-from hvac.constants.approle import DEFAULT_MOUNT_POINT, ALLOWED_TOKEN_TYPES
-from hvac.utils import validate_list_of_strings_param, list_to_comma_delimited
+from hvac_ikame import exceptions, utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
+from hvac_ikame.constants.approle import DEFAULT_MOUNT_POINT, ALLOWED_TOKEN_TYPES
+from hvac_ikame.utils import validate_list_of_strings_param, list_to_comma_delimited
 
 
 class AppRole(VaultApiBase):

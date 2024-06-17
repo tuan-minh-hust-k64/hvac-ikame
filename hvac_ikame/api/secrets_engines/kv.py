@@ -2,8 +2,8 @@
 
 import logging
 
-from hvac.api.secrets_engines import kv_v1, kv_v2
-from hvac.api.vault_api_base import VaultApiBase
+from hvac_ikame.api.secrets_engines import kv_v1, kv_v2
+from hvac_ikame.api.vault_api_base import VaultApiBase
 
 logger = logging.getLogger(__name__)
 

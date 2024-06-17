@@ -3,9 +3,9 @@
 import json
 import logging
 
-from hvac import exceptions, utils
-from hvac.api.vault_api_base import VaultApiBase
-from hvac.constants.gcp import (
+from hvac_ikame import exceptions, utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
+from hvac_ikame.constants.gcp import (
     ALLOWED_SECRETS_TYPES,
     SERVICE_ACCOUNT_KEY_ALGORITHMS,
     SERVICE_ACCOUNT_KEY_TYPES,

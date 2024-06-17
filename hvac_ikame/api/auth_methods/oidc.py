@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """JWT/OIDC methods module."""
-from hvac.api.auth_methods.jwt import JWT
+from hvac_ikame.api.auth_methods.jwt import JWT
 
 
 class OIDC(JWT):

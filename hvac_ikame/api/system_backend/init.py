@@ -1,6 +1,6 @@
 import warnings
-from hvac.api.system_backend.system_backend_mixin import SystemBackendMixin
-from hvac.exceptions import ParamValidationError
+from hvac_ikame.api.system_backend.system_backend_mixin import SystemBackendMixin
+from hvac_ikame.exceptions import ParamValidationError
 
 
 class Init(SystemBackendMixin):

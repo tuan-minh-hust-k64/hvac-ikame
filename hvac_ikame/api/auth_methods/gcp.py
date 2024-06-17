@@ -2,10 +2,10 @@
 """GCP methods module."""
 import logging
 
-from hvac import exceptions, utils
-from hvac.api.vault_api_base import VaultApiBase
-from hvac.constants.gcp import ALLOWED_ROLE_TYPES, GCP_CERTS_ENDPOINT
-from hvac.utils import validate_list_of_strings_param, list_to_comma_delimited
+from hvac_ikame import exceptions, utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
+from hvac_ikame.constants.gcp import ALLOWED_ROLE_TYPES, GCP_CERTS_ENDPOINT
+from hvac_ikame.utils import validate_list_of_strings_param, list_to_comma_delimited
 
 DEFAULT_MOUNT_POINT = "gcp"
 

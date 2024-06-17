@@ -3,8 +3,8 @@
 
 import warnings
 
-from hvac import exceptions, utils
-from hvac.api.vault_api_base import VaultApiBase
+from hvac_ikame import exceptions, utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
 
 DEFAULT_MOUNT_POINT = "secret"
 

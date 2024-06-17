@@ -2,9 +2,9 @@
 """Azure secret engine methods module."""
 import json
 
-from hvac import exceptions, utils
-from hvac.api.vault_api_base import VaultApiBase
-from hvac.constants.azure import VALID_ENVIRONMENTS
+from hvac_ikame import exceptions, utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
+from hvac_ikame.constants.azure import VALID_ENVIRONMENTS
 
 DEFAULT_MOUNT_POINT = "azure"
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Raft methods module."""
-from hvac.api.system_backend.system_backend_mixin import SystemBackendMixin
-from hvac import utils, adapters
+from hvac_ikame.api.system_backend.system_backend_mixin import SystemBackendMixin
+from hvac_ikame import utils, adapters
 
 
 class Raft(SystemBackendMixin):

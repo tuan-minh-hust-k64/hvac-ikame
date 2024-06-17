@@ -2,9 +2,9 @@
 """Aws methods module."""
 import json
 
-from hvac import exceptions, utils
-from hvac.api.vault_api_base import VaultApiBase
-from hvac.constants.aws import (
+from hvac_ikame import exceptions, utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
+from hvac_ikame.constants.aws import (
     DEFAULT_MOUNT_POINT,
     ALLOWED_CREDS_ENDPOINTS,
     ALLOWED_CREDS_TYPES,

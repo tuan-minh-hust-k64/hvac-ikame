@@ -7,8 +7,8 @@ from abc import ABCMeta, abstractmethod
 import requests
 import requests.exceptions
 
-from hvac import utils
-from hvac.constants.client import DEFAULT_URL
+from hvac_ikame import utils
+from hvac_ikame.constants.client import DEFAULT_URL
 
 
 class Adapter(metaclass=ABCMeta):

@@ -93,7 +93,7 @@ The ``hvac`` :class:`Client <hvac.v1.Client>` class supports providing a custom 
 
 .. code:: python
 
-	from hvac import Client
+	from hvac_ikame import Client
 	from urllib3.util import Retry
 	from requests import Session
 	from requests.adapters import HTTPAdapter

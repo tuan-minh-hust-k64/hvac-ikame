@@ -3,9 +3,9 @@
 import os
 import warnings
 
-from hvac.api.vault_api_base import VaultApiBase
-from hvac.utils import validate_pem_format
-from hvac import exceptions, utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
+from hvac_ikame.utils import validate_pem_format
+from hvac_ikame import exceptions, utils
 
 
 class Cert(VaultApiBase):

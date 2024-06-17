@@ -3,8 +3,8 @@ import typing as t
 
 from warnings import warn
 
-from hvac import adapters, api, exceptions, utils
-from hvac.constants.client import (
+from hvac_ikame import adapters, api, exceptions, utils
+from hvac_ikame.constants.client import (
     DEFAULT_URL,
     DEPRECATED_PROPERTIES,
     VAULT_CACERT,

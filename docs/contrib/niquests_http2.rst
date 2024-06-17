@@ -68,9 +68,9 @@ To be able to make concurrent requests using one connection, you will have to ov
 
     import niquests
 
-    from hvac.adapters import RawAdapter
-    from hvac.constants.client import DEFAULT_URL
-    from hvac import utils
+    from hvac_ikame.adapters import RawAdapter
+    from hvac_ikame.constants.client import DEFAULT_URL
+    from hvac_ikame import utils
 
 
     class NiquestsAdapter(RawAdapter):

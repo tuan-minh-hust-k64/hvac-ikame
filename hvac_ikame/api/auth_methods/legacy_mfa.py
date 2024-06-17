@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Legacy multi-factor authentication methods module."""
-from hvac.api.vault_api_base import VaultApiBase
-from hvac import exceptions, utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
+from hvac_ikame import exceptions, utils
 
 SUPPORTED_MFA_TYPES = [
     "duo",

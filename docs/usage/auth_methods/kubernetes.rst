@@ -6,8 +6,8 @@ Authentication
 
 .. code:: python
 
-    from hvac import Client
-    from hvac.api.auth_methods import Kubernetes
+    from hvac_ikame import Client
+    from hvac_ikame.api.auth_methods import Kubernetes
 
     client = Client(url=url, verify=certificate_path)
 

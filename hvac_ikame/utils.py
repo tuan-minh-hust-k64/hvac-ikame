@@ -9,7 +9,7 @@ import warnings
 from textwrap import dedent
 import urllib
 
-from hvac import exceptions
+from hvac_ikame import exceptions
 
 
 def raise_for_error(

@@ -4,10 +4,10 @@ import logging
 import json
 from base64 import b64encode
 
-from hvac import exceptions, aws_utils, utils
-from hvac.api.vault_api_base import VaultApiBase
-from hvac.constants.aws import ALLOWED_IAM_ALIAS_TYPES, ALLOWED_EC2_ALIAS_TYPES
-from hvac.constants.aws import DEFAULT_MOUNT_POINT as AWS_DEFAULT_MOUNT_POINT
+from hvac_ikame import exceptions, aws_utils, utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
+from hvac_ikame.constants.aws import ALLOWED_IAM_ALIAS_TYPES, ALLOWED_EC2_ALIAS_TYPES
+from hvac_ikame.constants.aws import DEFAULT_MOUNT_POINT as AWS_DEFAULT_MOUNT_POINT
 
 logger = logging.getLogger(__name__)
 

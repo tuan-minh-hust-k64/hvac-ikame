@@ -2,9 +2,9 @@
 """Identity secret engine module."""
 import logging
 
-from hvac import exceptions, utils
-from hvac.api.vault_api_base import VaultApiBase
-from hvac.constants.identity import ALLOWED_GROUP_TYPES, DEFAULT_MOUNT_POINT
+from hvac_ikame import exceptions, utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
+from hvac_ikame.constants.identity import ALLOWED_GROUP_TYPES, DEFAULT_MOUNT_POINT
 
 logger = logging.getLogger(__name__)
 

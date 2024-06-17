@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 """SSH vault secrets backend module."""
 
-from hvac import utils
-from hvac.api.vault_api_base import VaultApiBase
+from hvac_ikame import utils
+from hvac_ikame.api.vault_api_base import VaultApiBase
 
 DEFAULT_MOUNT_POINT = "ssh"
 
@@ -14,7 +14,7 @@ class Ssh(VaultApiBase):
     Reference: https://www.vaultproject.io/api-docs/secret/ssh
     """
 
-    # TODO: deprecate all dynamic SSH keys methods from hvac
+    # TODO: deprecate all dynamic SSH keys methods from hvac_ikame
     def create_or_update_key(
         self,
         name="",
@@ -47,7 +47,7 @@ class Ssh(VaultApiBase):
             json=params,
         )
 
-    # TODO: deprecate all dynamic SSH keys methods from hvac
+    # TODO: deprecate all dynamic SSH keys methods from hvac_ikame
     def delete_key(
         self,
         name="",
