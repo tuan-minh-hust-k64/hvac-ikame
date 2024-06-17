@@ -1,0 +1,16 @@
+comment:
+  layout: "diff, files"
+  behavior: default
+  require_changes: false
+  require_base: true
+  require_head: true
+
+coverage:
+  status:
+    project: off
+    patch: off
+  notify:
+    gitter:
+      default:
+        url: "secret:T9UBeoPLvCow+b8GS/yW0tsZ0H5uElK83g2y/ICn9UE+15yhtVz7azR/+SS33+P/tYGzO1aCPXt0/s+X3k9rtfj8B3GnHcF/kLD7GgLTRjRzIwiAg5ur7JyacHuF09Pk"
+        threshold: 1%

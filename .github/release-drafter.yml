@@ -1,0 +1,44 @@
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+commitish: 'refs/heads/main'
+exclude-labels:
+  - 'release'
+  - 'skip-changelog'
+categories:
+  - title: '💥 Breaking Changes'
+    labels:
+      - 'breaking-change'
+  - title: '📢 Deprecations / Announcements'
+    labels:
+      - 'deprecation'
+      - 'announcement'
+  - title: '🚀 Features'
+    labels:
+      - 'enhancement'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'bug'
+  - title: '📚 Documentation'
+    labels:
+      - 'documentation'
+  - title: '🧰 Miscellaneous'
+    labels:
+      - 'misc'
+change-template: '- $TITLE ([GH-$NUMBER]($URL))'
+version-resolver:
+  major:
+    labels:
+      - 'major'
+      - 'breaking-change'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
+template: |
+
+  $CHANGES
+
+  Thanks to $CONTRIBUTORS for their lovely contributions.
