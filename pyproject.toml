@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hvac"
+name = "hvac-ikame"
 version = "2.2.0"
 description = "HashiCorp Vault API client"
 readme = "README.md"
@@ -12,7 +12,7 @@ maintainers = [
     "Colin McAllister <colinmca242+hvac@gmail.com>",
     "Mike Adams",
 ]
-repository = "https://github.com/hvac/hvac"
+repository = "https://github.com/tuan-minh-hust-k64/hvac-ikame"
 documentation = "https://hvac.readthedocs.io/en/stable/overview.html"
 license = "Apache-2.0"
 keywords = ["hashicorp", "vault"]
@@ -28,7 +28,7 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: CPython",
 ]
 packages = [
-    { include = "hvac" },
+    { include = "hvac-ikame" },
     { include = "tests", format = "sdist" },
     { include = "docs", format = "sdist" },
 ]
